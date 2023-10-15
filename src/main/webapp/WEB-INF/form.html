@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro de livro</title>
+</head>
+
+<body>
+	<fieldset>
+		<legend>Formulário de cadastro de livros</legend>
+		<form action="http://localhost:8080/servlet-project/save" method="post" >
+			<label>Name:</label> 
+			<input type="text" name="name"/> 
+			<label>Email:</label> 
+			<input type="text" name="email"/> 
+			<label>Age:</label> 
+			<input type="number" name="age"/> 
+			<label>Gender</label> 
+			<select name="gender">
+				<option>Choose...</option>
+				<option value="M">Male</option>
+				<option value="F">Female</option>
+			</select>
+			<button>Save</button> </form>
+	</fieldset>
+	<a href="/servlet-project/" >Go back</a>
+</body>
+
+</html>
